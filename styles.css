@@ -25,7 +25,7 @@ header .content {
     margin: auto;
     align-items: center;
     flex-direction: column;
-    background-color: #06203F;
+    background-image: linear-gradient(to right, #06203F, white, white, white, white, #06203F)
 }
 
 header .logo {

@@ -101,3 +101,47 @@ figcaption {
     display: flex;
     justify-content: center;
 }
+
+
+@media only screen and (max-width: 760px) {
+
+    header {
+        position: absolute;
+    }
+    header .content {
+        padding: 0.5rem 0;
+    }
+
+    header img {
+        display: flex;
+        width: 150px;
+        height: 150px;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        width: fit-content;
+    }
+
+    header nav ul {
+        display: inline-flex;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+    }
+}
